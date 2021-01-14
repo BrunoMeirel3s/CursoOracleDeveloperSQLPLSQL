@@ -61,11 +61,11 @@ select * from hr.employees a
 where a.salary <= '90000'
 order by a.salary desc;
 
---Exemplo operador diferente <>
+--Exemplo operador diferente ' <> ' 
 select * from hr.employees a 
 where a.job_id <> 'IT_PROG';
 
---Exemplo operador diferente <>
+--Exemplo operador diferente ' <> '
 select * from hr.employees a 
 where a.manager_id <> '100';
 
